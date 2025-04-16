@@ -1,0 +1,55 @@
+body{
+    overflow: hidden;
+}
+
+
+.reservation{
+    display: flex;
+    gap: 2cm;
+    color: black;
+}
+.karibu{
+    width: 32%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Ankole\ karibu.jpeg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: fixed;
+    text-align: center;
+    padding: 200px;
+    height: 58vh;
+}
+.reservation_form{
+    width: 100%;
+    overflow: hidden;
+    color: black;
+    border: solid black;
+    background-color: black;
+    float: right;
+    margin-left: 26.3cm;
+    color: white;
+    height: 970px;
+    text-align: left;
+}
+#input{
+    width: 20cm;
+    height: 1.5cm;
+   background-color: black;
+   color: white;  
+   border: solid 1px;
+   border-radius: 8px;
+}
+.submit-button{
+ justify-content: center;
+}
+
+#input-button{
+    width: 20cm;
+    height: 1.5cm;
+   background-color: white;
+   color: black;  
+   border: solid 1px;
+   border-radius: 20px;
+   cursor: pointer;
+   font-size: larger;
+}

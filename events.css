@@ -1,0 +1,69 @@
+.events{
+    display: flex;
+}
+.info{
+    width: 40%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Ankole\ Accra.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    height: 57vh;
+}
+.info ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index:1;
+}
+.info-one{
+    width: 40%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Ankole\ Nairobi.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    height: 57vh;
+}
+.info-one ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index:1;
+}
+.info-two{
+    width: 40%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Ankole\ Zanzibar.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    height: 57vh;
+}
+.info-two ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index:1;
+}
+#headimg{
+    width: 40%;
+    height: 40%;
+   margin-bottom: 20px;
+}
+

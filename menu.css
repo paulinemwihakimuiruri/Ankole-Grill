@@ -1,0 +1,153 @@
+body{
+    overflow: hidden;
+}
+
+
+.menu{
+    display: flex;
+    position: relative;
+
+}
+.Kitisuru{
+    width: 40%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Ankole\ kitisuru.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    height: 57vh;
+}
+.Kitisuru ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index:1;
+}
+.Kitisuru h2{
+    position: relative;
+    z-index: 2;
+    font-size: 40px;
+    color: orangered;
+}
+.Kitisuru h1{
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+}
+.Kitisuru a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+   }
+.Kilimani{
+    width: 40%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Ankole\ kilimani.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    height: 57vh;
+}
+.Kilimani ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index:1;
+}
+.Kilimani h2{
+    position: relative;
+    z-index: 2;
+    font-size: 40px;
+    color: orangered;
+}
+.Kilimani h1{
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+}
+.Kilimani a{
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 20px;
+}
+.kitmenu{
+    display: flex;
+}
+.drinks{
+    display: flex;
+}
+.food{
+    display: flex;
+}
+.happyHour{
+    display: flex;
+}
+.menukitsuru{
+    width: 30%;
+    background-image: url(Images/Ankole\ menu.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    height: 60vh;
+}
+.menukitsuru h1{
+    color: orangered;
+    font-size: 40px;
+}
+.meals h3{
+    color: orangered;
+}
+.meals{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    overflow:scroll;
+    width: 50%;
+    height: 100vh;
+}
+.menukilimani{
+    width: 30%;
+    background-image: url(Images/Ankole\ menu.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    height: 90vh;
+
+}
+.menukilimani h1{
+    color: orangered;
+    font-size: 40px;
+}
+.kilmenu{
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1cm;
+}
+.prices{
+ margin: 0px 30px;
+}

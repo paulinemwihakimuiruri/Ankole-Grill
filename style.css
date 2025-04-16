@@ -1,0 +1,82 @@
+body{
+    overflow: hidden;
+}
+.navbar{
+    width: 40%;
+    position: fixed;
+    bottom: 0;
+    background-color: #111;
+    overflow: hidden;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    
+}
+.navbar a{
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+
+}
+.navbar a:hover{
+    color: grey;
+}
+
+.image{
+    width: 99.99vw;
+    height: 99.99vh;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    animation: slide 20s infinite forwards;
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.image:nth-child(1){
+    background-image: url(Images/Welcome.jpg);
+    animation-delay: 0s;
+}
+.image:nth-child(2){
+    background-image: url(Images/Ankole\ discover.jpg);
+    animation-delay: 5s;
+}
+.image:nth-child(3){
+    background-image: url(Images/Ankole\ experience.jpg);
+    animation-delay: 10s;
+}
+.image:nth-child(4){
+    background-image: url(Images/Ankole\ taste.jpg);
+    animation-delay: 15s;
+}
+.image:nth-child(5){
+    background-image: url(Images/Ankole\ savour.jpg);
+    animation-delay: 20s;
+}
+@keyframes slide{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
+}
+.image img{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.image h1{
+    color: grey;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    font-size: 120px;
+}
+
+
+
+

@@ -1,5 +1,6 @@
 .events{
     display: flex;
+    position: relative;
 }
 .info{
     width: 40%;
@@ -19,7 +20,6 @@
     right: 0;
     bottom: 0;
     top: 0;
-    z-index:1;
 }
 .info-one{
     width: 40%;
@@ -39,7 +39,6 @@
     right: 0;
     bottom: 0;
     top: 0;
-    z-index:1;
 }
 .info-two{
     width: 40%;
@@ -59,11 +58,69 @@
     right: 0;
     bottom: 0;
     top: 0;
-    z-index:1;
 }
-#headimg{
-    width: 40%;
-    height: 40%;
-   margin-bottom: 20px;
+.logo{
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 40%;
+    width: 30px;
+    height: 20px;
+   
+}
+.dropup{
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    background-color: #111;
+    margin-left: 33%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+.dropup-content{
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    min-width: 200px;
+    color: black;
+    background-color: white;
+    padding-left: 7%;
+}
+.dropup:hover .dropup-content{
+    display: block;
+}
+i{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.nav{
+    display: flex;
+    position: fixed;
+}
+.navbar{
+    width: 33%;
+    position: fixed;
+    bottom: 0;
+    background-color: #111;
+    overflow: hidden;
+    margin-left: 32%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    padding-left: 4%;
+    
+}
+.navbar a{
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+
+}
+.navbar a:hover{
+    color: grey;
 }
 

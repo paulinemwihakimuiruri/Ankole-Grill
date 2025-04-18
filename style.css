@@ -2,14 +2,15 @@ body{
     overflow: hidden;
 }
 .navbar{
-    width: 40%;
+    width: 33%;
     position: fixed;
     bottom: 0;
     background-color: #111;
     overflow: hidden;
-    margin-left: 30%;
+    margin-left: 32%;
     margin-bottom: 30px;
     border-radius: 40px;
+    padding-left: 4%;
     
 }
 .navbar a{
@@ -34,7 +35,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    animation: slide 20s infinite forwards;
+    animation: slide 10s infinite forwards;
     opacity: 0;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
@@ -75,6 +76,36 @@ body{
     margin-bottom: 100px;
     margin-left: 80px;
     font-size: 120px;
+}
+.dropup{
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    background-color: #111;
+    margin-left: 33%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+.dropup-content{
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    min-width: 200px;
+    color: black;
+    background-color: white;
+    padding-left: 7%;
+}
+.dropup:hover .dropup-content{
+    display: block;
+}
+i{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.nav{
+    display: flex;
 }
 
 

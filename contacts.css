@@ -1,4 +1,106 @@
+body{
+    overflow: hidden;
+}
+
 .contact{
     display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Ankole\ contacts.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+    color: white;
+    height: 100vh;
+    gap: 30px;
+    padding-top: 20%;
+    padding-left: 30%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#imgcontact{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    overflow: visible;
+    margin: 5% 40%;
+}
+
+.kitcontact{
+    color: white;
+    background-position: center;
+    position: relative;
+    text-align: left;
+    border: solid 2px;
+    height: 30%;
+    width: 20%;
+    padding-left: 60px;
     
+}
+
+.kilcontact{
+    color: white;
+    position: relative;
+    text-align: left;
+    border: solid 2px;
+    height: 41%;
+    width: 20%;
+    padding-left: 30px;
+    
+}
+.dropup{
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    background-color: #111;
+    margin-left: 33%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+.dropup-content{
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    min-width: 200px;
+    color: black;
+    background-color: white;
+    padding-left: 7%;
+}
+.dropup:hover .dropup-content{
+    display: block;
+}
+i{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    margin-left: -35%;
+}
+.navbar{
+    width: 33%;
+    position: fixed;
+    bottom: 0;
+    background-color: #111;
+    overflow: hidden;
+    margin-left: 32%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    padding-left: 4%;
+    
+}
+.navbar a{
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+
+}
+.navbar a:hover{
+    color: grey;
 }

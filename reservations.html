@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="reservation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <div class="reservation">
         <div class="karibu">
-            <img src="Images/Ankoe head.svg" id="headimg">
+            <a href="index.html"><img src="Images/Ankoe head.svg" id="headimg"></a>
             <h1>Karibu</h1>
             <h2>Reservation</h2>
         </div>
@@ -19,9 +20,11 @@
               <br><br>
               <input id="input" type="text" placeholder="Enter your first name">
               <br><br>
-               <label for="location">Location</label>
-               <br><br>
-               <input id="input" type="text">
+              <label for="location">Location</label><br>
+               <select id="input" name="Location" >
+               <option > Kitisuru(Opens 9:00am - Closes 11pm)</option>
+               <option> Kilimani (Hours:Opens 7:30 am - 11:00 pm) </option>
+            </select>
                <br><br>
                <label for="email">Email Address</label>
                <br><br>
@@ -49,7 +52,31 @@
 
             </form>
         
-
+            <div class="nav">
+                <div class="navbar">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="events.html">Events</a>
+                    <a href="live.html">Live</a>
+                    <a href="contacts.html">Contacts</a>
+                    <a href="reservations.html" id="button">Reservations</a>
+            
+                </div>
+                <div class="dropup">
+                    <i class="fa-regular fa-clock" style="color: #f0f0f0;"></i>
+                        <div class="dropup-content">
+                            <h3>Opening Hours</h3>
+                            <h2>Kitisuru</h2>
+                            <p>Mon-Sun<br>
+                            9.00am-11.00pm</p>
+                            <h2>Kilimani</h2>
+                            <p>Mon-Sun<br>
+                            7.30am-11.00pm <br></p>
+        
+                        </div>
+                </div>
+                </div>
 
     </div>
 </body>

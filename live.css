@@ -1,0 +1,177 @@
+
+.perfomance{
+    display: flex;
+    color: azure;
+}
+.fadhilee{
+    width: 40%;
+    margin-left: 30%;
+}
+.fadhilee img{
+    padding-left: 0%;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+}
+.perfomance-detail{
+    margin-top: 10%;
+}
+.perfomance-detail h5{
+    font-weight: 400;
+    color: orangered;
+    font-size: larger;
+}
+.perfomance-detail p{
+    font-weight: 400;
+    font-size: 25px;
+}
+.mushrooms{
+    width: 40%;
+    margin-left: 30%;
+}
+.mushrooms img{
+    padding-left: 0%;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+}
+.jack{
+    width: 40%;
+    margin-left: 30%;
+}
+.jack img{
+    padding-left: 0%;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+}
+.shitaqua{
+    width: 40%;
+    margin-left: 30%;
+}
+.shitaqua img{
+    padding-left: 0%;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+}
+body{
+    overflow-y: scroll;
+    background-image: url(Images/Ankole\ drums.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken
+}
+body img{
+    margin-left: 19%;
+    padding-top: 100px;
+    width: 200px;
+    position: fixed;
+}
+.tukatike h2{
+    color: white;
+    font-weight: 400;
+    font-size: large;
+    padding-top: 22%;
+    position: fixed;
+    margin-left: 20%;
+}
+.tukatike h1{
+    color: orangered;
+    font-weight: 400;
+    font-size: 60px;
+    position: fixed;
+    padding-top: 23%;
+    margin-left: 20%;
+}
+.tukatike{
+    position: fixed;
+}
+.dropup{
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    background-color: #111;
+    margin-left: 33%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+.dropup-content{
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    min-width: 200px;
+    color: black;
+    background-color: white;
+    padding-left: 7%;
+}
+.dropup:hover .dropup-content{
+    display: block;
+}
+i{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.nav{
+    display: flex;
+}
+.navbar{
+    width: 33%;
+    position: fixed;
+    bottom: 0;
+    background-color: #111;
+    overflow: hidden;
+    margin-left: 32%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    padding-left: 4%;
+    
+}
+.navbar a{
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+
+}
+.navbar a:hover{
+    color: grey;
+}
+.fadhile{
+    background-image: url(Images/Ankole\ fadhilee.jpg);
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    overflow: auto;
+}
+.mushrom{
+    background-image: url(Images/Ankole\ mushrooms.jpg);
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    overflow: auto;
+}
+.jacke{
+    background-image: url(Images/Ankole\ jack.jpeg);
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    overflow: auto;
+}
+.shitakua{
+    background-image: url(Images/Ankole\ shitaqua.jpg);
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    overflow: auto;
+}

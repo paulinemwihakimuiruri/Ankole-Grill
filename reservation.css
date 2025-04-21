@@ -113,3 +113,121 @@ i{
 .navbar a:hover{
     color: grey;
 }
+@media only screen and (max-width: 800px) and (min-width :0px){
+    /* body{
+        overflow: hidden;
+    } */
+    .reservation{
+        display: block;
+        gap: 2cm;
+        color: black;
+    }
+    .karibu{
+        width: 20px;
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Ankole\ karibu.jpeg);
+        background-size: cover;
+        color: white;
+        background-position: center;
+        position: fixed;
+        text-align: center;
+        padding: 200px;
+        height: 58vh;
+    }
+    .karibu h2{
+        color: orangered;
+        font-size: 50px;
+    }
+    .reservation_form{
+        width: 100%;
+        overflow: hidden;
+        color: black;
+        border: solid black;
+        background-color: black;
+        float: right;
+        margin-left: 26.3cm;
+        color: white;
+        height: 970px;
+        text-align: left;
+    }
+    #input{
+        width: 20cm;
+        height: 1.5cm;
+       background-color: black;
+       color: white;  
+       border: solid 1px;
+       border-radius: 8px;
+    }
+    .submit-button{
+     justify-content: center;
+    }
+    
+    #input-button{
+        width: 20cm;
+        height: 1.5cm;
+       background-color: white;
+       color: black;  
+       border: solid 1px;
+       border-radius: 20px;
+       cursor: pointer;
+       font-size: larger;
+    }
+    .dropup{
+        display: inline-block;
+        position: fixed;
+        bottom: 0;
+        background-color: #111;
+        margin-left: 33%;
+        margin-bottom: 30px;
+        border-radius: 40px;
+    }
+    .dropup-content{
+        display: none;
+        position: absolute;
+        bottom: 50px;
+        min-width: 200px;
+        color: black;
+        background-color: white;
+        padding-left: 7%;
+    }
+    .dropup:hover .dropup-content{
+        display: block;
+    }
+    i{
+        padding: 15px;
+        border: none;
+        cursor: pointer;
+        padding-left: 20px;
+    }
+    .nav{
+        display: flex;
+        position: fixed;
+    }
+    .navbar{
+        width: 33%;
+        position: fixed;
+        bottom: 0;
+        background-color: #111;
+        overflow: hidden;
+        margin-left: 32%;
+        margin-bottom: 30px;
+        border-radius: 40px;
+        padding-left: 4%;
+        
+    }
+    .navbar a{
+     float: left;
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+    
+    }
+    .navbar a:hover{
+        color: grey;
+    } 
+    #bars{
+        display: none;
+    }
+}

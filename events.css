@@ -124,20 +124,24 @@ i{
     color: grey;
 }
 @media only screen and (max-width: 500px) and (min-width :0px){
+    body{
+        overflow: hidden;
+    }
     .events{
         display: block;
         text-align: center;
+        overflow: hidden;
     }
     .info{
         width: 40%;
         background-position: center;
-        /* position: fixed; */
         text-align: center;
         padding: 200px;
         height: 50vh;
-        font-size: 25px;
+        font-size: 23px;
         padding-top: 20px;
         overflow: hidden;
+        padding-left: 100px;
     }
     .info-one{
         width: 40%;
@@ -146,8 +150,9 @@ i{
         text-align: center;
         padding: 200px;
         height: 57vh;
-        font-size: 25px;
-        /* padding-top: 20px; */
+        font-size: 23px;
+        padding-left: 100px;
+        padding-top: 20px;
     }
  
     .info-two{
@@ -156,20 +161,20 @@ i{
         text-align: center;
         padding: 200px;
         height: 57vh;
-        font-size: 25px;
+        font-size: 23px;
         padding-top: 20px;
+        padding-left: 100px;
     }
     .logo{
-        position: absolute;
+        position: fixed;
         margin-top: -390%;
         margin-left: 40%;
-        width: 10px;
-        height: 10px;
-       
+        padding-left: -70px;
+        display: none;  
     }
     .dropup{
         bottom: 0;
-        margin-left: 24%;
+        margin-left: 28%;
         margin-bottom: 30px;
     }
     .nav{
@@ -179,9 +184,10 @@ i{
     .navbar{
         width: 33%;
         position: fixed;
-        margin-left: 32%;
+        margin-left: 30%;
         margin-bottom: 30px;
-        border-radius: 40px;   
+        border-radius: 40px;  
+        padding-left: 27px; 
     }
     #bars{
         display: none;

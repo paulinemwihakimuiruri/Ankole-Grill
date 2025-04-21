@@ -1,5 +1,6 @@
 body{
     overflow: hidden;
+    margin: 0;
 }
 
 
@@ -159,6 +160,7 @@ ul{
     margin-left: 33%;
     margin-bottom: 30px;
     border-radius: 40px;
+    color-scheme: dark;
 }
 .dropup-content{
     display: none;
@@ -182,6 +184,7 @@ i{
 .nav{
     display: flex;
     position: fixed;
+    color-scheme: dark;
 }
 .navbar{
     width: 33%;
@@ -207,4 +210,118 @@ i{
 }
 .navbar a:hover{
     color: grey;
+}
+
+@media only screen and (max-width: 500px) and (min-width :0px){
+    body{
+        overflow: hidden;
+    }
+    .menu{
+        display: block;
+    }
+    .Kitisuru{
+        width: 40%;
+        position: relative;
+        text-align: center;
+        padding: 100px;
+        height: 50%;
+    }
+    .Kitisuru h2{
+        position: relative;
+        font-size: 30px;
+        margin-top: -30%;
+    }
+    .Kitisuru h1{
+        position: relative;
+        z-index: 2;
+        font-size: 35px;
+    }
+    .Kilimani{
+        width: 40%;
+        position: relative;
+        text-align: center;
+        padding: 100px;
+        height: 56%;
+    }
+    .Kilimani h2{
+        position: relative;
+        z-index: 2;
+        font-size: 35px;
+    }
+    .Kilimani h1{
+        position: relative;
+        z-index: 2;
+        font-size: 30px;
+    }
+    .Kilimani a{
+     font-size: 10px;
+    }
+    .kitmenu{
+        display: block;
+        width: 100%;
+    }
+    .drinks{
+        display: flex;
+    }
+    .food{
+        display: flex;
+    }
+    .happyHour{
+        display: flex;
+    }
+    .menukitsuru{
+        width: 12%;
+        position: relative;
+        text-align: center;
+        padding: 200px;
+        height: 60%;
+    }
+    #headimg{
+        width: 90px;
+        height: 90px;
+    }
+    .menukitsuru h1{
+        font-size: 30px;
+    }
+    .meals{
+        padding: 100px;
+        overflow:scroll;
+        width: 60%;
+        height: 100vh;
+    }
+    .menukilimani{
+        width: 12%;
+        position: relative;
+        text-align: center;
+        padding: 200px;
+        height: 60px;
+    }
+    .menukilimani h1{
+        font-size: 30px;
+    }
+    .kilmenu{
+        display: block;
+    }
+    .prices{
+     margin: 0px 30px;
+    }
+    .dropup{
+        display: inline-block;
+        position: fixed;
+        bottom: 0;
+        margin-left: 27%;
+        margin-bottom: 120px;
+        border-radius: 40px;
+        color-scheme: dark;
+    }
+    .navbar{
+        width: 33%;
+        position: fixed;
+        overflow: hidden;
+        margin-left: 32%;
+        margin-bottom: 120px;
+    }
+    #bars{
+        display: none;
+    }
 }

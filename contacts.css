@@ -104,3 +104,54 @@ i{
 .navbar a:hover{
     color: grey;
 }
+
+
+@media only screen and (max-width: 500px) and (min-width :0px){
+    body{
+        overflow: hidden;   
+    }
+    .contact{
+        display: block;
+        height: 100vh;
+        padding-top: 34%;
+        padding-left: 10%;
+    }
+    #imgcontact{
+        width: 20%;
+        height: 28%;
+        padding-top: -50%;
+        margin-top: -10%;
+    }  
+    .kitcontact{
+        height: 35%;
+        width: 68%;
+        padding-left: 20px;   
+        font-size: 12px;
+    }
+    .kilcontact{
+        height: 45%;
+        width: 70%;
+        padding-left: 30px; 
+        font-size: 12px;
+        margin-top: 2%;
+    }
+    i{
+        padding: 15px;
+        padding-left: 20px;
+    }
+    .nav{
+        display: block;
+        position: fixed;
+        margin-left: -35%;
+    }
+    .navbar{
+        width: 38%;
+        position: fixed;
+        overflow: hidden;
+        margin-left: 39%;
+    }
+    #bars{
+        display: none;
+    }
+
+}

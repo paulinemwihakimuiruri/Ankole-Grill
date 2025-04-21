@@ -123,4 +123,69 @@ i{
 .navbar a:hover{
     color: grey;
 }
+@media only screen and (max-width: 500px) and (min-width :0px){
+    .events{
+        display: block;
+        text-align: center;
+    }
+    .info{
+        width: 40%;
+        background-position: center;
+        /* position: fixed; */
+        text-align: center;
+        padding: 200px;
+        height: 50vh;
+        font-size: 25px;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    .info-one{
+        width: 40%;
+        background-position: center;
+        position: relative;
+        text-align: center;
+        padding: 200px;
+        height: 57vh;
+        font-size: 25px;
+        /* padding-top: 20px; */
+    }
+ 
+    .info-two{
+        width: 40%;
+        position: relative;
+        text-align: center;
+        padding: 200px;
+        height: 57vh;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .logo{
+        position: absolute;
+        margin-top: -390%;
+        margin-left: 40%;
+        width: 10px;
+        height: 10px;
+       
+    }
+    .dropup{
+        bottom: 0;
+        margin-left: 24%;
+        margin-bottom: 30px;
+    }
+    .nav{
+        display: flex;
+        position: fixed;
+    }
+    .navbar{
+        width: 33%;
+        position: fixed;
+        margin-left: 32%;
+        margin-bottom: 30px;
+        border-radius: 40px;   
+    }
+    #bars{
+        display: none;
+    }
+
+}
 
